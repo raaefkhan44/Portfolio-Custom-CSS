@@ -1,0 +1,245 @@
+@keyframes gradientAnimation {
+    0% {
+      background-image: linear-gradient(135deg, #ff0062, #00eeff);
+    }
+    50% {
+      background-image: linear-gradient(135deg, #ff00f2, #059bff);
+    }
+    100% {
+      background-image: linear-gradient(135deg, #2400f0, #ff00ff);
+    }
+  }
+  .top-h{
+      animation: gradientAnimation 5s ease infinite;
+      height: 100vh;
+  }
+  
+  .top-h>h1{
+      font-family: 'Roboto';
+      text-align: center;
+      padding: 20px;
+      color: black;
+      font-weight:900;
+      margin-top: 3px;
+  }
+  
+  .main-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #080808;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      margin: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s forwards;
+  }
+  
+  @keyframes fadeInUp {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  .box-1 {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      box-shadow: 0px 0px 20px #f0a500;
+  }
+  
+  .box-1:hover {
+      transform: scale(1.1);
+  }
+  
+  .content {
+      text-align: center;
+  }
+  
+  .content h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      color: #f0a500;
+      transition: color 0.3s;
+  }
+  
+  .content h1:hover {
+      color: #4d3a0a;
+  }
+  
+  .content h2 {
+      font-size: 1.5rem;
+      margin: 5px 0;
+      color: white;
+  }
+  
+  .content p {
+      font-size: 1rem;
+      margin: 10px 0;
+      line-height: 1.5;
+      color: #555;
+      opacity: 0;
+      animation: fadeIn 0.8s forwards 0.2s;
+  }
+  
+  @keyframes fadeIn {
+      to {
+          opacity: 1;
+      }
+  }
+  
+  @media (min-width: 600px) {
+      .main-hero {
+          flex-direction: row;
+          justify-content: center;
+          padding: 60px;
+      }
+  
+      .box-1 {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 0;
+          margin-right: 30px;
+      }
+  
+      .content h1 {
+          font-size: 3rem;
+      }
+  
+      .content h2 {
+          font-size: 1.8rem;
+      }
+  
+      .content p {
+          font-size: 1.1rem;
+      }
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-image: linear-gradient(135deg, #ff0062, #00eeff);
+    }
+    50% {
+      background-image: linear-gradient(135deg, #ff00f2, #059bff);
+    }
+    100% {
+      background-image: linear-gradient(135deg, #2400f0, #ff00ff);
+    }
+  }
+  .top-h{
+      animation: gradientAnimation 5s ease infinite;
+      height: 100vh;
+  }
+  
+  .top-h>h1{
+      font-family: 'Roboto';
+      text-align: center;
+      padding: 20px;
+      color: black;
+      font-weight:900;
+      margin-top: 3px;
+  }
+  
+  .main-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #080808;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      margin: 20px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s forwards;
+  }
+  
+  @keyframes fadeInUp {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  .box-1 {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      box-shadow: 0px 0px 20px #f0a500;
+  }
+  
+  .box-1:hover {
+      transform: scale(1.1);
+  }
+  
+  .content {
+      text-align: center;
+  }
+  
+  .content h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      color: #f0a500;
+      transition: color 0.3s;
+  }
+  
+  .content h1:hover {
+      color: #4d3a0a;
+  }
+  
+  .content h2 {
+      font-size: 1.5rem;
+      margin: 5px 0;
+      color: white;
+  }
+  
+  .content p {
+      font-size: 1rem;
+      margin: 10px 0;
+      line-height: 1.5;
+      color: #555;
+      opacity: 0;
+      animation: fadeIn 0.8s forwards 0.2s;
+  }
+  
+  @keyframes fadeIn {
+      to {
+          opacity: 1;
+      }
+  }
+  
+  @media (min-width: 600px) {
+      .main-hero {
+          flex-direction: row;
+          justify-content: center;
+          padding: 60px;
+      }
+  
+      .box-1 {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 0;
+          margin-right: 30px;
+      }
+  
+      .content h1 {
+          font-size: 3rem;
+      }
+  
+      .content h2 {
+          font-size: 1.8rem;
+      }
+  
+      .content p {
+          font-size: 1.1rem;
+      }
+  }
+     

@@ -1,0 +1,162 @@
+@keyframes gradientAnimation {
+  0% {
+    background-image: linear-gradient(135deg, #ff0062, #00eeff);
+  }
+  50% {
+    background-image: linear-gradient(135deg, #ff00f2, #059bff);
+  }
+  100% {
+    background-image: linear-gradient(135deg, #2400f0, #ff00ff);
+  }
+}
+
+
+
+.At-top {
+  max-width: 1200px; 
+  padding: 3rem; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+
+.At-top > h1 {
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+}
+
+
+.contact-box {
+  max-width: 600px; 
+  margin: 60px auto; 
+  padding: 2.5rem; 
+  background-color: black; 
+  border-radius: 12px; 
+  box-shadow: 0 0px 30px black; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.contact-box:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 0px 50px whitesmoke; 
+}
+
+
+.contact-content {
+  text-align: center; 
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 2.5rem; 
+  color: #f0a500; 
+  margin-bottom: 1.5rem; 
+}
+
+
+.contact-form {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+.form-group {
+  margin-bottom: 1.5rem; 
+  text-align: left; 
+}
+
+
+label {
+  font-weight: 600; 
+  margin-bottom: 0.5rem; 
+  display: block; 
+  color: #555; 
+}
+
+
+input,
+textarea {
+  width: 100%; 
+  padding: 0.75rem; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+  transition: border 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: #0070f3; 
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.5); 
+  outline: none; 
+}
+
+
+textarea {
+  resize: vertical; 
+}
+
+.btn {
+  background-color: #f0a500; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 0.75rem; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+.btn:hover {
+  background-color: #005bb5; 
+  transform: scale(1.05); 
+}
+
+
+.contact-links {
+  margin-top: 2rem; 
+  display: flex; 
+  justify-content: center; 
+  gap: 1.5rem; 
+}
+
+
+.link-item {
+  display: inline-block; 
+  background-color: #f0f0f0; 
+  border-radius: 50%; 
+  padding: 10px; 
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+
+.link-item img {
+  width: 60px; 
+  height: 60px; 
+  transition: transform 0.3s ease; 
+}
+
+
+.link-item:hover {
+  background-color: white; 
+  transform: scale(1.1); 
+}
+
+
+.link-item img:hover {
+  transform: scale(1.1); 
+}
