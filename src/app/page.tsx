@@ -16,7 +16,7 @@ export default function Home() {
             />
 
             <div className="content">
-                <h2>Hello I'm</h2>
+                <h2>Hello I&apos;m</h2>
                   <h1>Raaef Khan</h1>
                 <p>I am a passionate website developer and
                   <br />
