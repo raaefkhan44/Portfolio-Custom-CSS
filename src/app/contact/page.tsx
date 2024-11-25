@@ -1,4 +1,4 @@
-import "../../style/contact.css"
+import "../../styles/contact.css"
 import Image from "next/image"
 
 export default function Contact(){

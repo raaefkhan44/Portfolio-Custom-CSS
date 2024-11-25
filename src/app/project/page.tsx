@@ -1,4 +1,4 @@
-import "../../style/project.css";
+import "../../styles/project.css";
 import Image from "next/image";
 import "../globals.css"
 
@@ -15,7 +15,6 @@ export default function Project() {
             height={250}
             className="portfolio-image"
           />
-
           <h3>Count-down Timer</h3> 
           <p>
             A website powered by Next.js and TypeScript, featuring an
@@ -63,7 +62,6 @@ export default function Project() {
             height={250}
             className="portfolio-image"
           />
-
           <h3>Todo List</h3>
           <p>
             A task management application built with React and TypeScript,
@@ -75,6 +73,28 @@ export default function Project() {
               target="_blank"
             >
               View List
+            </a>
+          </button>
+        </div>
+
+        <div className="project-item">
+          <Image
+            src="/calculator.PNG"
+            alt="Portfolio Item Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+          <h3>Simple Calculator</h3>
+          <p>
+          A website powered by Next.js and TypeScript, featuring a simple calculator for performing basic arithmetic operations.
+          </p>
+          <button type="button">
+            <a
+              href="https://04-simple-calculator.vercel.app/"
+              target="_blank"
+            >
+              View calculator
             </a>
           </button>
         </div>

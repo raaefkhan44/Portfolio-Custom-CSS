@@ -1,4 +1,4 @@
-import "../style/page.css"
+import "../styles/page.css"
 import Image from "next/image";
 
 export default function Home() {
