@@ -87,7 +87,7 @@ export default function Project() {
           />
           <h3>Simple Calculator</h3>
           <p>
-          A website powered by Next.js and TypeScript, featuring a simple calculator for performing basic arithmetic operations.
+          The Simple Calculator is an intuitive web application designed for basic arithmetic operations. Users can perform addition, subtraction, multiplication, and division with ease. The interface features two input fields for entering numbers, a display for the result, and clearly labeled buttons for each operation.
           </p>
           <button type="button">
             <a
@@ -99,6 +99,30 @@ export default function Project() {
           </button>
         </div>
         
+        <div className="project-item">
+          <Image
+            src="/digital clock.PNG"
+            alt="Portfolio Item Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+          <h3>Digital Clock</h3>
+          <p>
+          The Digital Clock is a user-friendly component that displays the current time in a clear and visually appealing format. It offers two modes: a 24-hour format for those who prefer military time, and a 12-hour format for a traditional view. The clock updates every second, ensuring real-time accuracy.
+          </p>
+          <button type="button">
+            <a
+              href="https://05-digital-clock.vercel.app/"
+              target="_blank"
+            >
+              View Clock
+            </a>
+          </button>
+        </div>
+ 
+
+
       </div>
     </div>
   );
