@@ -120,6 +120,28 @@ export default function Project() {
             </a>
           </button>
         </div>
+
+        <div className="project-item">
+          <Image
+            src="/number guessing.PNG"
+            alt="Portfolio Item Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+          <h3>Number Guessing Game</h3>
+          <p>
+          The Number Guessing Game challenges players to guess a randomly generated number between 1 and 10. Players receive feedback on their guesses and can track their attempts until they correctly identify the number.
+          </p>
+          <button type="button">
+            <a
+              href="https://06-number-guessing-game.vercel.app/"
+              target="_blank"
+            >
+              View Game
+            </a>
+          </button>
+        </div>
  
 
 
