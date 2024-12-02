@@ -142,8 +142,29 @@ export default function Project() {
             </a>
           </button>
         </div>
- 
 
+        <div className="project-item">
+          <Image
+            src="/birthday_wish.PNG"
+            alt="Portfolio Item Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+          <h3>Birthday Wish</h3>
+          <p>
+          A birthday wish is a heartfelt message sent to someone on their special day, expressing good wishes, happiness, and love. It is a way to celebrate their life and make them feel valued and appreciated.
+          </p>
+          <button type="button">
+            <a
+              href="https://08-birthday-wish.vercel.app/"
+              target="_blank"
+            >
+              View Birthday Wish
+            </a>
+          </button>
+        </div>
+ 
 
       </div>
     </div>
