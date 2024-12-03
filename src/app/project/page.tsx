@@ -164,6 +164,29 @@ export default function Project() {
             </a>
           </button>
         </div>
+
+        
+        <div className="project-item">
+          <Image
+            src="/random jokes.PNG"
+            alt="Portfolio Item Image"
+            width={300}
+            height={250}
+            className="portfolio-image"
+          />
+          <h3>Random Jokes Generator</h3>
+          <p>
+          Warning: Side effects may include uncontrollable laughter, eye-rolling, and the sudden urge to tell everyone your newfound joke. So, grab your phone, get ready to chuckle, and remember: if you can not laugh at yourself, do not worry this web will do it for you!
+          </p>
+          <button type="button">
+            <a
+              href="https://07-random-joke-generator-gamma.vercel.app/"
+              target="_blank"
+            >
+              View Jokes Generator
+            </a>
+          </button>
+        </div>
  
 
       </div>
